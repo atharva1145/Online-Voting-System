@@ -1,57 +1,87 @@
-# Online-voting-system-using-servlets
+# Online Voting System
 
-**Author:** atharva1145  
-**Certified by:** atharva1145  
+A clean, object-oriented Java command-line application for managing online voting operations. The project demonstrates core Java programming principles, modular object-oriented design, and secure vote management.
 
-This is an Online voting system which can be used for conducting elections in online-mode.
+Developed and maintained by **[@atharva1145](https://github.com/atharva1145)**.
 
+---
 
--------REQUIREMENTS
+## 🚀 Features
 
+- **Voter Registration**: Register eligible voters.
+- **Vote Casting**: Allow users to cast votes securely.
+- **Candidate Management**: Add and manage election candidates.
+- **Result Calculation**: Display election results and vote counts.
+- **Interactive CLI Interface**: Simple menu-driven command-line application.
 
-1.apache version 10 and database connectivity
+---
 
+## 🛠️ Technology Stack
 
-2.eclipse workspace
+- **Language:** Java (JDK 8 or higher)
+- **Architecture:** Object-Oriented Programming (OOP)
 
+---
 
-3.mysql-connector
+## 📁 Project Structure
 
+```
+Online Voting System/
+├── Main.java
+├── Voter.java
+├── Candidate.java
+├── VotingSystem.java
+├── README.md
+└── .gitignore
+```
 
-4.servlet-api
+---
 
+## ⚙️ Prerequisites
 
--------TECHNOLOGIES USED
+- Java Development Kit (JDK 8 or higher)
+- Command Prompt / PowerShell / Terminal
 
+---
 
-1.HTML/CSS/JavaScript for frontend
+## ▶️ Building & Running
 
+### Compile
 
-2.MySQL for backend
+```bash
+javac *.java
+```
 
+### Execute
 
-3.Java servlets
+```bash
+java Main
+```
 
+---
 
--------MUST READ !!
+## 💡 Example Usage
 
+```text
+===== Online Voting System =====
+1. Register Voter
+2. Cast Vote
+3. View Results
+4. Exit
 
-Total number of pages - 5
+Enter your choice:
+```
 
+---
 
-Welcome page,Login page(For already registered candidates),Register page(for new registrations),Vote page(to select the respective vote),Thankyou page
+## 👤 Author
 
+**Atharva**
 
-1.A user needs to get registered himself/herself in the portal first.
+- GitHub: **[@atharva1145](https://github.com/atharva1145)**
 
+---
 
-2.Voterid and password are used to login the specific user.
+## 📄 License
 
-
-3.The user can access the vote page by entering his asked credentials.
-
-
-4.Loginpage directs you to vote page where user can cast the vote.
-
-
-5.With one voterid vote can be casted only once and this directs to thankyoupage.
+This project is licensed under the MIT License.
