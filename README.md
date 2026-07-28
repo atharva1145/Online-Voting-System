@@ -79,9 +79,3 @@ Enter your choice:
 **Atharva**
 
 - GitHub: **[@atharva1145](https://github.com/atharva1145)**
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
